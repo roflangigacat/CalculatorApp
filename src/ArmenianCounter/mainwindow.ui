@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>452</width>
+    <height>629</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Armenian Counter</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">QWidget[objectName=&quot;centralWidget&quot;]{ background-image: url(&quot;:/Users/tandrasc/C7_SmartCalc_v1.0-0/ArmenianCounter/PULYA.png&quot;) no-repeat right bottom; } </string>
+   </property>
+   <widget class="QLabel" name="Pic">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>130</y>
+      <width>451</width>
+      <height>471</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="res">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>-10</y>
+      <width>451</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>50</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));
+color: rgb(218, 214, 90);</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>0</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_four">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>170</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(9, 41, 4, 255), stop:0.085 rgba(2, 79, 0, 255), stop:0.19 rgba(50, 147, 22, 255), stop:0.275 rgba(236, 191, 49, 255), stop:0.39 rgba(243, 61, 34, 255), stop:0.555 rgba(135, 81, 60, 255), stop:0.667 rgba(121, 75, 255, 255), stop:0.825 rgba(164, 255, 244, 255), stop:0.885 rgba(104, 222, 71, 255), stop:1 rgba(93, 128, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>FOUR</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_six">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>290</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(255, 255, 255, 255), stop:0.373979 rgba(255, 255, 255, 255), stop:0.373991 rgba(33, 30, 255, 255), stop:0.624018 rgba(33, 30, 255, 255), stop:0.624043 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>SIX</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_five">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>270</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 0, 0, 255), stop:0.339795 rgba(255, 0, 0, 255), stop:0.339799 rgba(255, 255, 255, 255), stop:0.662444 rgba(255, 255, 255, 255), stop:0.662469 rgba(0, 0, 255, 255), stop:1 rgba(0, 0, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>FIVE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_del">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0, cy:0, angle:135, stop:0 rgba(255, 255, 0, 69), stop:0.375 rgba(255, 255, 0, 69), stop:0.423533 rgba(251, 255, 0, 145), stop:0.45 rgba(247, 255, 0, 208), stop:0.477581 rgba(255, 244, 71, 130), stop:0.518717 rgba(255, 218, 71, 130), stop:0.55 rgba(255, 255, 0, 255), stop:0.57754 rgba(255, 203, 0, 130), stop:0.625 rgba(255, 255, 0, 69), stop:1 rgba(255, 255, 0, 69));</string>
+    </property>
+    <property name="text">
+     <string>AC</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_one">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>150</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.650579 rgba(148, 171, 255, 255), stop:0.669811 rgba(242, 93, 92, 255));</string>
+    </property>
+    <property name="text">
+     <string>ONE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_nine">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>230</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(0, 0, 0, 255), stop:0.33 rgba(0, 0, 0, 255), stop:0.34 rgba(255, 30, 30, 255), stop:0.66 rgba(255, 0, 0, 255), stop:0.67 rgba(255, 255, 0, 255), stop:1 rgba(255, 255, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>NINE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_eq">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>390</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 0, 0, 255), stop:0.17 rgba(255, 0, 0, 255), stop:0.18 rgba(255, 255, 255, 255), stop:0.210212 rgba(255, 255, 255, 255), stop:0.220212 rgba(0, 16, 255, 255), stop:0.279897 rgba(0, 16, 255, 255), stop:0.289897 rgba(255, 255, 255, 255), stop:0.32 rgba(255, 255, 255, 255), stop:0.33 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>==</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_mod">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>330</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
+    </property>
+    <property name="text">
+     <string>MOD</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_mult">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>340</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(255, 178, 102, 255), stop:0.55 rgba(235, 148, 61, 255), stop:0.98 rgba(0, 0, 0, 255), stop:1 rgba(0, 0, 0, 0));</string>
+    </property>
+    <property name="text">
+     <string>MULT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_seven">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>350</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 rgba(245, 224, 176, 255), stop:0.09 rgba(246, 189, 237, 255), stop:0.14 rgba(194, 207, 246, 255), stop:0.19 rgba(184, 160, 168, 255), stop:0.25 rgba(171, 186, 248, 255), stop:0.32 rgba(243, 248, 224, 255), stop:0.385 rgba(249, 162, 183, 255), stop:0.47 rgba(100, 115, 124, 255), stop:0.58 rgba(251, 205, 202, 255), stop:0.65 rgba(170, 128, 185, 255), stop:0.75 rgba(252, 222, 204, 255), stop:0.805 rgba(206, 122, 218, 255), stop:0.86 rgba(254, 223, 175, 255), stop:0.91 rgba(254, 236, 244, 255), stop:1 rgba(255, 191, 221, 255));</string>
+    </property>
+    <property name="text">
+     <string>SEVEN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_credit">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>180</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0.5, cy:0.5, angle:0, stop:0 rgba(35, 40, 3, 255), stop:0.16 rgba(136, 106, 22, 255), stop:0.225 rgba(166, 140, 41, 255), stop:0.285 rgba(204, 181, 74, 255), stop:0.345 rgba(235, 219, 102, 255), stop:0.415 rgba(245, 236, 112, 255), stop:0.52 rgba(209, 190, 76, 255), stop:0.57 rgba(187, 156, 51, 255), stop:0.635 rgba(168, 142, 42, 255), stop:0.695 rgba(202, 174, 68, 255), stop:0.75 rgba(218, 202, 86, 255), stop:0.815 rgba(208, 187, 73, 255), stop:0.88 rgba(187, 156, 51, 255), stop:0.935 rgba(137, 108, 26, 255), stop:1 rgba(35, 40, 3, 255));</string>
+    </property>
+    <property name="text">
+     <string>CREDIT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_minus">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>450</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0.5, cy:0.5, angle:117.657, stop:0.634304 rgba(146, 166, 255, 0), stop:0.668285 rgba(224, 129, 115, 255));</string>
+    </property>
+    <property name="text">
+     <string>MINUS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_eight">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>490</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 255), stop:0.19397 rgba(0, 0, 0, 255), stop:0.202312 rgba(122, 97, 0, 255), stop:0.495514 rgba(76, 58, 0, 255), stop:0.504819 rgba(255, 255, 255, 255), stop:0.79 rgba(255, 255, 255, 255), stop:1 rgba(255, 158, 158, 255));</string>
+    </property>
+    <property name="text">
+     <string>EIGHT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_three">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>480</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0.42471 rgba(91, 255, 138, 255), stop:0.736165 rgba(255, 99, 97, 255));</string>
+    </property>
+    <property name="text">
+     <string>THREE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_two">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>160</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qconicalgradient(cx:0.5, cy:0.5, angle:90, stop:0.511752 rgba(106, 126, 237, 255), stop:0.574786 rgba(112, 255, 248, 255));</string>
+    </property>
+    <property name="text">
+     <string>TWO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_zero">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>450</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 rgba(255, 255, 255, 255), stop:0.495 rgba(255, 255, 255, 255), stop:0.505 rgba(255, 0, 0, 255), stop:1 rgba(255, 0, 0, 255));</string>
+    </property>
+    <property name="text">
+     <string>ZERO</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_plus">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>410</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(0, 0, 0, 0), stop:0.52 rgba(0, 0, 0, 0), stop:0.565 rgba(82, 121, 76, 33), stop:0.65 rgba(159, 235, 148, 64), stop:0.721925 rgba(255, 238, 150, 129), stop:0.77 rgba(255, 128, 128, 204), stop:0.89 rgba(191, 128, 255, 64), stop:1 rgba(0, 0, 0, 0));</string>
+    </property>
+    <property name="text">
+     <string>PLUS</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_pow">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>160</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qradialgradient(spread:repeat, cx:0.5, cy:0.5, radius:0.077, fx:0.5, fy:0.5, stop:0 rgba(0, 169, 255, 147), stop:0.497326 rgba(0, 0, 0, 147), stop:1 rgba(0, 169, 255, 147));</string>
+    </property>
+    <property name="text">
+     <string>POW</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="but_div">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>240</y>
+      <width>74</width>
+      <height>74</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"> border-style: solid;
+ border-width:2px;
+ border-radius:35px;
+ max-width: 70px;
+ max-height:70px;
+ min-width:70px;
+ min-height:70px;
+color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0 rgba(255, 0, 0, 255), stop:0.479904 rgba(255, 0, 0, 255), stop:0.522685 rgba(255, 255, 255, 255), stop:1 rgba(255, 255, 255, 255));</string>
+    </property>
+    <property name="text">
+     <string>DIV</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>452</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
