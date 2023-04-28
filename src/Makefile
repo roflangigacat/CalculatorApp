@@ -43,7 +43,7 @@ rebuild: clean all
 install: build
 	@mkdir -p /Users/$(shell whoami)/$(INSTALL_DIR)
 	@cp -r $(BUILD_DIR)$(DIR)SmartCalc.app /Users/$(shell whoami)/$(INSTALL_DIR)
-	@cp -r ../UserGuide /Users/$(shell whoami)/$(INSTALL_DIR)
+	@cp -r ./UserGuide /Users/$(shell whoami)/$(INSTALL_DIR)
 	@mv /Users/$(shell whoami)/$(INSTALL_DIR)/SmartCalc.app ~/Desktop/
 	rm -rf a.out *.tgz *.o *.a *.gcda *.gcno *.info *.info report build* *.cfg SmartCalcgu
 
@@ -53,7 +53,7 @@ run:
 rofl: buildrofl
 	@mkdir -p /Users/$(shell whoami)/$(INSTALL_ROFL) 
 	@cp -r $(BUILD_DIR)$(DIR)ArmenianCounter.app /Users/$(shell whoami)/$(INSTALL_ROFL)
-	@cp -r ../UserGuide /Users/$(shell whoami)/$(INSTALL_ROFL)
+	@cp -r ./UserGuide /Users/$(shell whoami)/$(INSTALL_ROFL)
 	@open /Users/$(shell whoami)/$(INSTALL_ROFL)
 	rm -rf a.out *.tgz *.o *.a *.gcda *.gcno *.info *.info report build* *.cfg SmartCalcgu
 
